@@ -1,0 +1,116 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#12372a">
+  <title>VE School Readiness</title>
+  <meta name="description" content="Collect school readiness evidence, classify schools, and plan differentiated Vision Empower support.">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <a class="skip-link" href="#main">Skip to main content</a>
+  <div class="app-shell">
+    <aside class="sidebar" aria-label="Primary navigation">
+      <div class="brand">
+        <div class="brand-mark" aria-hidden="true">VE</div>
+        <div><strong>Vision Empower</strong><span>School readiness</span></div>
+      </div>
+      <nav>
+        <button class="nav-item active" data-view="dashboard"><span aria-hidden="true">◫</span> Overview</button>
+        <button class="nav-item" data-view="schools"><span aria-hidden="true">⌂</span> Schools</button>
+        <button class="nav-item" data-view="assessment"><span aria-hidden="true">✓</span> New assessment</button>
+        <button class="nav-item" data-view="analysis"><span aria-hidden="true">◒</span> Analysis</button>
+        <button class="nav-item" data-view="method"><span aria-hidden="true">i</span> Method</button>
+      </nav>
+      <div class="sync-card">
+        <span class="status-dot" id="sync-dot"></span>
+        <div><strong id="sync-label">Local workspace</strong><small id="sync-detail">Supabase key not configured</small></div>
+      </div>
+    </aside>
+
+    <div class="workspace">
+      <header class="topbar">
+        <button class="icon-button menu-button" id="menu-button" aria-label="Open navigation">☰</button>
+        <div>
+          <p class="eyebrow">Odisha school portfolio</p>
+          <h1 id="page-title">School readiness overview</h1>
+        </div>
+        <div class="top-actions">
+          <button class="button secondary" id="export-button">Export data</button>
+          <button class="button primary" data-start-assessment>Start assessment</button>
+        </div>
+      </header>
+
+      <main id="main" tabindex="-1">
+        <section class="view active" id="dashboard-view">
+          <div class="intro-row">
+            <div>
+              <h2>See where support is needed</h2>
+              <p>Readiness and evidence coverage are shown separately so missing information never becomes a low score.</p>
+            </div>
+            <label class="select-label">Portfolio
+              <select id="portfolio-filter"><option>All Odisha schools</option></select>
+            </label>
+          </div>
+          <div class="metric-grid" id="metric-grid"></div>
+          <div class="dashboard-grid">
+            <article class="panel span-2">
+              <div class="panel-heading"><div><p class="eyebrow">Portfolio distribution</p><h3>Current engagement level</h3></div><button class="text-button" data-view-link="schools">View schools</button></div>
+              <div class="bar-chart" id="engagement-chart" aria-label="School engagement distribution"></div>
+            </article>
+            <article class="panel">
+              <div class="panel-heading"><div><p class="eyebrow">Next action</p><h3>Evidence queue</h3></div></div>
+              <div id="evidence-queue" class="stack-list"></div>
+            </article>
+            <article class="panel span-3">
+              <div class="panel-heading"><div><p class="eyebrow">Readiness profile</p><h3>Domain view</h3></div><span class="legend"><i class="nascent"></i>Nascent <i class="emerging"></i>Emerging <i class="ready"></i>Ready</span></div>
+              <div id="domain-bars" class="domain-bars"></div>
+            </article>
+          </div>
+        </section>
+
+        <section class="view" id="schools-view">
+          <div class="toolbar">
+            <label class="search-field"><span aria-hidden="true">⌕</span><input id="school-search" type="search" placeholder="Search school or district"></label>
+            <select id="engagement-filter" aria-label="Filter by engagement"><option value="">All engagement levels</option></select>
+          </div>
+          <div class="school-table-wrap">
+            <table class="school-table">
+              <thead><tr><th>School</th><th>Grades</th><th>Readiness pattern</th><th>VE engagement</th><th></th></tr></thead>
+              <tbody id="school-table-body"></tbody>
+            </table>
+          </div>
+        </section>
+
+        <section class="view" id="assessment-view">
+          <div class="assessment-layout">
+            <aside class="steps-panel" aria-label="Assessment progress">
+              <p class="eyebrow">Assessment flow</p>
+              <ol id="assessment-steps"></ol>
+              <div class="completion-card"><span id="completion-percent">0%</span><div><strong>Evidence complete</strong><small>75% required in every domain for a confirmed result</small></div></div>
+            </aside>
+            <div class="form-panel" id="assessment-form"></div>
+          </div>
+        </section>
+
+        <section class="view" id="analysis-view">
+          <div class="analysis-header"><div><h2>Portfolio analysis</h2><p>Compare readiness, evidence strength, and the intensity of VE support.</p></div><select id="analysis-school" aria-label="Select school"></select></div>
+          <div id="analysis-content"></div>
+        </section>
+
+        <section class="view" id="method-view">
+          <div class="method-grid">
+            <article class="panel span-2 prose"><p class="eyebrow">Scoring model</p><h2>Readiness is evidence-led</h2><p>Each indicator is rated Nascent, Emerging, Ready, Not assessable, or Not applicable. Numeric scores are assigned only to the first three ratings. Domain scores are the mean of scored applicable indicators.</p><div class="rule-grid"><div><strong>1</strong><span>Nascent</span></div><div><strong>2</strong><span>Emerging</span></div><div><strong>3</strong><span>Ready</span></div></div><p>A domain is provisional below 75% evidence coverage. A school is Ready only when all six domains are scored, none is Nascent, the equal-domain mean is at least 2.34, and every domain meets the evidence threshold.</p></article>
+            <article class="panel prose"><p class="eyebrow">Checklist design</p><h3>Short checks at clear pauses</h3><p>The form separates evidence capture, domain review, and final confirmation. Critical missing evidence is surfaced before submission. The checklist supports judgement; it does not replace it.</p></article>
+            <article class="panel span-3 prose"><p class="eyebrow">Engagement pathway</p><h3>From direct delivery to institutionalisation</h3><div class="pathway"><div><b>1</b><strong>High dependency</strong><span>VE leads core delivery and foundational support.</span></div><div><b>2</b><strong>Assisted competency</strong><span>School staff co-deliver with sustained VE support.</span></div><div><b>3</b><strong>Operational autonomy</strong><span>School staff lead; VE mentors and develops trainers.</span></div><div><b>4</b><strong>Full sustainability</strong><span>School systems sustain practice; VE monitors and refreshes.</span></div></div></article>
+          </div>
+        </section>
+      </main>
+    </div>
+  </div>
+  <div class="toast" id="toast" role="status" aria-live="polite"></div>
+  <script src="config.js"></script>
+  <script src="app.js" type="module"></script>
+</body>
+</html>

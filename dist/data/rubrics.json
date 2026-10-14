@@ -1,0 +1,1226 @@
+{
+  "1-5": [
+    {
+      "id": "d1",
+      "name": "Resources",
+      "indicators": [
+        {
+          "id": "d1-i1",
+          "label": "Basic Reading/ Writing materials (Slate, stylus)",
+          "criteria": {
+            "nascent": "Materials absent or very limited.",
+            "emerging": "Basic reading and writing materials available for some students.",
+            "ready": "Basic reading and writing materials available for every student."
+          },
+          "evidence_guidance": "L combines slates, stylus and Taylor Frame. Availability does not establish use."
+        },
+        {
+          "id": "d1-i2",
+          "label": "Book Availability (Braille)",
+          "criteria": {
+            "nascent": "Braille textbooks absent, including current syllabus books.",
+            "emerging": "Some Braille textbooks available but insufficient, shared or outdated.",
+            "ready": "Current Braille textbooks available adequately across grades."
+          },
+          "evidence_guidance": "RLF tactile books are rated separately. A plain Yes is Emerging because adequacy and currency are unspecified."
+        },
+        {
+          "id": "d1-i3",
+          "label": "Audio resources availability",
+          "criteria": {
+            "nascent": "No audio learning resources available.",
+            "emerging": "Audio resources limited to selected grades or content.",
+            "ready": "Audio learning resources available across grades."
+          },
+          "evidence_guidance": "A plain Yes or VE provided is Emerging until coverage is confirmed."
+        },
+        {
+          "id": "d1-i4",
+          "label": "School STEM KIT present",
+          "criteria": {
+            "nascent": "STEM Kit absent",
+            "emerging": "Basic Kit present but school not using it.",
+            "ready": "STEM Kits used by teachers and students in classes."
+          },
+          "evidence_guidance": "Presence if a STEM kit and its usage ensures schools are focused on basic STEM"
+        },
+        {
+          "id": "d1-i5",
+          "label": "AT Availability",
+          "criteria": {
+            "nascent": "No assistive devices available, explicitly reported.",
+            "emerging": "Some assistive devices available, but coverage is limited or unclear.",
+            "ready": "Relevant assistive devices available adequately across grades."
+          },
+          "evidence_guidance": "Teacher knowledge and computers alone do not establish AT availability."
+        },
+        {
+          "id": "d1-i6",
+          "label": "DL Infrastructure",
+          "criteria": {
+            "nascent": "No digital literacy lab or computers available.",
+            "emerging": "Computers or a lab available, but adequacy and operation unclear.",
+            "ready": "Equipped operational lab with teaching support."
+          },
+          "evidence_guidance": "Computer teacher plus desktops supports Ready. Generic Yes or a device count supports Emerging."
+        }
+      ]
+    },
+    {
+      "id": "d2",
+      "name": "Teacher Capacity",
+      "indicators": [
+        {
+          "id": "d2-i1",
+          "label": "Teachers qualified to work with Braille (not just oral teaching)",
+          "criteria": {
+            "nascent": "Teachers lack Braille competence.",
+            "emerging": "Only some teachers know Braille, or competence covers limited teaching needs.",
+            "ready": "Relevant teachers can read and write using Braille script and therefore teach and assess students' submissions."
+          },
+          "evidence_guidance": "Unverified claims and Not sure are Not assessable. A plain Yes answers the source qualification question."
+        },
+        {
+          "id": "d2-i2",
+          "label": "VI teachers digitially literate to access information for teaching (Subodha)",
+          "criteria": {
+            "nascent": "VI teachers lack digital literacy or require basic support.",
+            "emerging": "Some VI teachers digitally literate, or limited phone-based use reported.",
+            "ready": "VI teachers can access digital teaching information independently."
+          },
+          "evidence_guidance": "No VI teachers is Not applicable. Plain Yes is Emerging because independent teaching-resource use is not specified."
+        },
+        {
+          "id": "d2-i3",
+          "label": "Teachers qualified to use AT / DL etc",
+          "criteria": {
+            "nascent": "Teachers lack AT/DL skills or do not use available tools.",
+            "emerging": "Some teachers skilled, or competence varies across AT/DL tools.",
+            "ready": "Relevant teachers qualified to use AT/DL tools and help students to use the same."
+          },
+          "evidence_guidance": "No device is Not assessable for teacher competence. Generic Yes answers the source qualification question."
+        },
+        {
+          "id": "d2-i4",
+          "label": "Teachers providing classwork/ homework / regular assessments",
+          "criteria": {
+            "nascent": "No classwork, homework or regular assessments provided.",
+            "emerging": "These are provided inconsistently or only to some students.",
+            "ready": "Teachers routinely provide classwork, homework and assessments."
+          },
+          "evidence_guidance": "Apply the source question as a combined indicator."
+        },
+        {
+          "id": "d2-i5",
+          "label": "Participation in CT classes",
+          "criteria": {
+            "nascent": "No teacher participation in CT classes.",
+            "emerging": "Teachers participate in CT sessions inconsistently.",
+            "ready": "Teachers regularly participate in CT classes."
+          },
+          "evidence_guidance": "Not always is Emerging."
+        },
+        {
+          "id": "d2-i6",
+          "label": "Participation in CTIS, Pragya",
+          "criteria": {
+            "nascent": "No participation in CTIS or Pragya.",
+            "emerging": "Participation in one programme, or unspecified training participation.",
+            "ready": "Participation in both CTIS and Pragya."
+          },
+          "evidence_guidance": "Plain Yes does not establish participation in both programmes."
+        },
+        {
+          "id": "d2-i7",
+          "label": "Number of supportive teachers for VE interventions",
+          "criteria": {
+            "nascent": "No supportive teachers reported.",
+            "emerging": "Some supportive teachers reported, but not 100%.",
+            "ready": "100% teaching staff support VE."
+          },
+          "evidence_guidance": "Counts are retained. A date in AK cannot be interpreted as a teacher count."
+        }
+      ]
+    },
+    {
+      "id": "d3",
+      "name": "AT/ DL Readiness",
+      "indicators": [
+        {
+          "id": "d3-i1",
+          "label": "AT Use",
+          "criteria": {
+            "nascent": "Explicitly no/very limited use of Hexis/IRIS or other AT by students or teachers",
+            "emerging": "Some use reported, with limited or inconsistent coverage.",
+            "ready": "Regular independent AT use commensurate to devices supplied for teaching and learning."
+          },
+          "evidence_guidance": "General teacher competence is not evidence of actual AT use."
+        },
+        {
+          "id": "d3-i2",
+          "label": "DL Infrastructure",
+          "criteria": {
+            "nascent": "No digital literacy lab or computers available.",
+            "emerging": "Computers or a lab available, but adequacy and operation unclear.",
+            "ready": "Equipped operational lab with teaching support."
+          },
+          "evidence_guidance": "Uses the same infrastructure criteria as Resources row 7."
+        },
+        {
+          "id": "d3-i3",
+          "label": "DL Teaching",
+          "criteria": {
+            "nascent": "Explicitly no digital literacy teaching.",
+            "emerging": "DL teaching reported but limited to some teachers or external support.",
+            "ready": "Regular school-led DL teaching with a designated teacher."
+          },
+          "evidence_guidance": "Lab availability or teacher qualification alone does not establish DL teaching."
+        }
+      ]
+    },
+    {
+      "id": "d4",
+      "name": "School system Readiness",
+      "indicators": [
+        {
+          "id": "d4-i1",
+          "label": "Teacher to student Ratio",
+          "criteria": {
+            "nascent": "Staffing below the agreed teacher-to-student benchmark.",
+            "emerging": "Staffing near the benchmark, with class coverage gaps.",
+            "ready": "Staffing meets the agreed benchmark and class coverage needs."
+          },
+          "evidence_guidance": "No ratio benchmark is supplied. Ratios are shown, but readiness is Not assessable pending an agreed benchmark."
+        },
+        {
+          "id": "d4-i2",
+          "label": "Teachers available for all classes",
+          "criteria": {
+            "nascent": "Teachers unavailable for all classes.",
+            "emerging": "Partial class coverage or shared teachers across grades.",
+            "ready": "Teachers available for all classes."
+          },
+          "evidence_guidance": "Bare counts or comments about class grouping do not establish teacher coverage."
+        },
+        {
+          "id": "d4-i3",
+          "label": "Individual Classes Held (not grouped classes)",
+          "criteria": {
+            "nascent": "Most or all classes grouped across grades.",
+            "emerging": "Some grades grouped and others taught separately.",
+            "ready": "Separate grade-level classes held."
+          },
+          "evidence_guidance": "No is interpreted against the source question asking whether classes are grade-specific."
+        },
+        {
+          "id": "d4-i4",
+          "label": "Special Educators availability",
+          "criteria": {
+            "nascent": "No special educators available.",
+            "emerging": "Special educators present, but adequate grade coverage is not established.",
+            "ready": "Special educators present with reported teacher coverage for every subject."
+          },
+          "evidence_guidance": "Headcount alone supports Emerging. Coverage does not establish specialisation in every subject."
+        },
+        {
+          "id": "d4-i5",
+          "label": "Braille Teaching Support, students write their own tests/exams, not just oral",
+          "criteria": {
+            "nascent": "Predominantly oral teaching or minimal Braille writing support.",
+            "emerging": "Limited Braille expertise in some grades with oral/scribe dependence for exams.",
+            "ready": "Braille teaching to enable independent written work/exams supported across grades."
+          },
+          "evidence_guidance": "Plain Yes is Emerging because independent exams are not separately confirmed."
+        },
+        {
+          "id": "d4-i6",
+          "label": "ECCE Taught in school",
+          "criteria": {
+            "nascent": "No early foundational teaching and no ECCE support interest reported.",
+            "emerging": "Early foundational teaching or ECCE interest reported, but a full programme is unconfirmed.",
+            "ready": "ECCE programme explicitly implemented."
+          },
+          "evidence_guidance": "T and AB are proxies. Negative answers to both do not verify absence of a named ECCE programme."
+        },
+        {
+          "id": "d4-i7",
+          "label": "VICT support from school",
+          "criteria": {
+            "nascent": "No willingness to support VICT reported.",
+            "emerging": "School interested in supporting VICT.",
+            "ready": "Active VICT support"
+          },
+          "evidence_guidance": "AC measures interest, so Yes supports Emerging rather than Ready."
+        },
+        {
+          "id": "d4-i8",
+          "label": "School teaches Self Organizing Skills (SOS) in all grades",
+          "criteria": {
+            "nascent": "SOS not taught across grades.",
+            "emerging": "SOS taught in some grades or inconsistently.",
+            "ready": "SOS taught in all grades."
+          },
+          "evidence_guidance": "Use the all-grades scope of the source question."
+        },
+        {
+          "id": "d4-i9",
+          "label": "Good internet connectivity",
+          "criteria": {
+            "nascent": "Internet absent, unavailable or poor.",
+            "emerging": "Internet available but reliability average or unconfirmed.",
+            "ready": "Good internet connectivity reported."
+          },
+          "evidence_guidance": "Plain Yes means Emerging until reliability is confirmed."
+        },
+        {
+          "id": "d4-i10",
+          "label": "Students participate in extra curricular activities",
+          "criteria": {
+            "nascent": "No extracurricular participation reported.",
+            "emerging": "Participation exists but access is limited or inconsistent.",
+            "ready": "Students participate in extracurricular activities."
+          },
+          "evidence_guidance": "The source measures participation, not universal student coverage."
+        },
+        {
+          "id": "d4-i11",
+          "label": "Students participate in district/ state/ national level competitions",
+          "criteria": {
+            "nascent": "No district/state/national competition participation.",
+            "emerging": "Competition or event participation reported but external level unclear.",
+            "ready": "District, state or national participation explicitly reported."
+          },
+          "evidence_guidance": "Disability Day events are not automatically treated as competitions."
+        },
+        {
+          "id": "d4-i12",
+          "label": "After School Support",
+          "criteria": {
+            "nascent": "No after-school learning support.",
+            "emerging": "Some after-school support reported, but regularity unclear.",
+            "ready": "Regular structured after-school learning support."
+          },
+          "evidence_guidance": "A generic Yes or hostel teaching supports Emerging until regularity is confirmed."
+        }
+      ]
+    },
+    {
+      "id": "d5",
+      "name": "Science Readiness",
+      "indicators": [
+        {
+          "id": "d5-i1",
+          "label": "Qualified Science Teachers available",
+          "criteria": {
+            "nascent": "No qualified Science/Maths teachers available.",
+            "emerging": "Combined Science/Maths teacher availability reported.",
+            "ready": "Science-qualified teacher with VE training certifications and coverage explicitly established."
+          },
+          "evidence_guidance": "K combines Science and Maths, so positive counts are Emerging rather than proof of Science-specific qualification."
+        },
+        {
+          "id": "d5-i2",
+          "label": "Tactile Books Availability (RLF, etc)",
+          "criteria": {
+            "nascent": "No tactile books available.",
+            "emerging": "RLF/tactile books present but adequacy across grades unclear.",
+            "ready": "Adequate tactile learning books available across grades."
+          },
+          "evidence_guidance": "A generic book Yes does not identify tactile books."
+        },
+        {
+          "id": "d5-i3",
+          "label": "Functional STEM Kit (3-5)",
+          "criteria": {
+            "nascent": "No functional STEM KIT",
+            "emerging": "STEM Kit present but not regularly functioning",
+            "ready": "STEM Kit in working condition with regular student sessions using the kit components."
+          },
+          "evidence_guidance": "Same source and criteria as Resources row 5."
+        }
+      ]
+    },
+    {
+      "id": "d6",
+      "name": "Maths readiness",
+      "indicators": [
+        {
+          "id": "d6-i1",
+          "label": "Written Math support",
+          "criteria": {
+            "nascent": "No or very little written Maths support.",
+            "emerging": "Some Taylor Frame/Abacus support, limited use or mixed provision.",
+            "ready": "Written Maths support using appropriate tools and independent written work confirmed."
+          },
+          "evidence_guidance": "Tools or generic Yes alone support Emerging; they do not establish independent mathematical writing."
+        },
+        {
+          "id": "d6-i2",
+          "label": "Nemeth support",
+          "criteria": {
+            "nascent": "No Nemeth teaching/support, explicitly confirmed.",
+            "emerging": "Some Nemeth teaching/support, with limited coverage.",
+            "ready": "Consistent Nemeth teaching and student use."
+          },
+          "evidence_guidance": "No Nemeth-specific field is provided. Do not infer from Braille or Taylor Frame."
+        }
+      ]
+    }
+  ],
+  "1-8": [
+    {
+      "id": "d1",
+      "name": "Resources",
+      "indicators": [
+        {
+          "id": "d1-i1",
+          "label": "Basic Reading/ Writing materials (Slate, stylus)",
+          "criteria": {
+            "nascent": "Materials absent or very limited.",
+            "emerging": "Materials shared or available for some students.",
+            "ready": "Basic reading and writing materials available for every student."
+          },
+          "evidence_guidance": "L combines slates, stylus and Taylor Frame. Availability does not establish use."
+        },
+        {
+          "id": "d1-i2",
+          "label": "Book Availability (Braille)",
+          "criteria": {
+            "nascent": "Braille textbooks absent, including current-syllabus books.",
+            "emerging": "Some Braille textbooks available but insufficient, shared or outdated.",
+            "ready": "Current Braille textbooks available adequately across grades."
+          },
+          "evidence_guidance": "RLF tactile books are rated separately. A plain Yes is Emerging because adequacy and currency are unspecified."
+        },
+        {
+          "id": "d1-i3",
+          "label": "Audio resources availability",
+          "criteria": {
+            "nascent": "No audio learning resources available.",
+            "emerging": "Audio resources limited to selected grades or content.",
+            "ready": "Audio learning resources available across grades."
+          },
+          "evidence_guidance": "A plain Yes or VE provided is Emerging until coverage is confirmed."
+        },
+        {
+          "id": "d1-i4",
+          "label": "Science Lab present",
+          "criteria": {
+            "nascent": "No science lab.",
+            "emerging": "Lab present but not regularly functioning",
+            "ready": "Functional science lab with regular student lab classes."
+          },
+          "evidence_guidance": "G explicitly asks about a functional lab and regular classes."
+        },
+        {
+          "id": "d1-i5",
+          "label": "AT Availability",
+          "criteria": {
+            "nascent": "No assistive devices available, explicitly reported.",
+            "emerging": "Some assistive devices available, but coverage is limited or unclear.",
+            "ready": "Relevant assistive devices available adequately across grades."
+          },
+          "evidence_guidance": "Teacher knowledge and computers alone do not establish AT availability."
+        },
+        {
+          "id": "d1-i6",
+          "label": "DL Infrastructure",
+          "criteria": {
+            "nascent": "No digital literacy lab or computers available.",
+            "emerging": "Computers or a lab available, but adequacy and operation unclear.",
+            "ready": "Equipped operational lab with teaching support."
+          },
+          "evidence_guidance": "Computer teacher plus desktops supports Ready. Generic Yes or a device count supports Emerging."
+        }
+      ]
+    },
+    {
+      "id": "d2",
+      "name": "Teacher Capacity",
+      "indicators": [
+        {
+          "id": "d2-i1",
+          "label": "Teachers qualified to work with Braille (not just oral teaching)",
+          "criteria": {
+            "nascent": "Teachers lack Braille competence.",
+            "emerging": "Only some teachers know Braille, or competence covers limited teaching needs.",
+            "ready": "Relevant teachers can teach using Braille."
+          },
+          "evidence_guidance": "Unverified claims and Not sure are Not assessable. A plain Yes answers the source qualification question."
+        },
+        {
+          "id": "d2-i2",
+          "label": "VI teachers digitially literate to access information for teaching (Subodha)",
+          "criteria": {
+            "nascent": "VI teachers lack digital literacy or require basic support.",
+            "emerging": "Some VI teachers digitally literate, or limited phone-based use reported.",
+            "ready": "VI teachers can access digital teaching information independently."
+          },
+          "evidence_guidance": "No VI teachers is Not applicable. Plain Yes is Emerging because independent teaching-resource use is not specified."
+        },
+        {
+          "id": "d2-i3",
+          "label": "Teachers trained to use AT / DL etc",
+          "criteria": {
+            "nascent": "Teachers lack AT/DL skills or do not use available tools.",
+            "emerging": "Some teachers skilled, or competence varies across AT/DL tools.",
+            "ready": "Relevant teachers qualified to use AT/DL tools."
+          },
+          "evidence_guidance": "No device is Not assessable for teacher competence. Generic Yes answers the source qualification question."
+        },
+        {
+          "id": "d2-i4",
+          "label": "Teachers providing classwork/ homework / regular assessments",
+          "criteria": {
+            "nascent": "No classwork, homework or regular assessments provided.",
+            "emerging": "These are provided inconsistently or only to some students.",
+            "ready": "Teachers routinely provide classwork, homework and assessments."
+          },
+          "evidence_guidance": "Apply the source question as a combined indicator."
+        },
+        {
+          "id": "d2-i5",
+          "label": "Participation in CT classes",
+          "criteria": {
+            "nascent": "No teacher participation in CT classes.",
+            "emerging": "Teachers participate inconsistently.",
+            "ready": "Teachers regularly participate in CT classes."
+          },
+          "evidence_guidance": "Not always is Emerging."
+        },
+        {
+          "id": "d2-i6",
+          "label": "Participation in CTIS, Pragyas etc",
+          "criteria": {
+            "nascent": "No participation in CTIS or Pragya.",
+            "emerging": "Participation in one programme, or unspecified training participation.",
+            "ready": "Participation in both CTIS and Pragya."
+          },
+          "evidence_guidance": "Plain Yes does not establish participation in both programmes."
+        },
+        {
+          "id": "d2-i7",
+          "label": "Number of supportive teachers for VE",
+          "criteria": {
+            "nascent": "No supportive teachers reported.",
+            "emerging": "Some supportive teachers reported, but not the full teaching team.",
+            "ready": "All teaching staff support VE."
+          },
+          "evidence_guidance": "Counts are retained. A date in AK cannot be interpreted as a teacher count."
+        }
+      ]
+    },
+    {
+      "id": "d3",
+      "name": "AT/ DL Readiness",
+      "indicators": [
+        {
+          "id": "d3-i1",
+          "label": "AT Use",
+          "criteria": {
+            "nascent": "Explicitly no use of Hexis/IRIS or other AT.",
+            "emerging": "Some use reported, with limited or inconsistent coverage.",
+            "ready": "Regular independent AT use in teaching and learning."
+          },
+          "evidence_guidance": "General teacher competence is not evidence of actual AT use."
+        },
+        {
+          "id": "d3-i2",
+          "label": "DL Infrastructure",
+          "criteria": {
+            "nascent": "No digital literacy lab or computers available.",
+            "emerging": "Computers or a lab available, but adequacy and operation unclear.",
+            "ready": "Equipped operational lab with teaching support."
+          },
+          "evidence_guidance": "Uses the same infrastructure criteria as Resources row 7."
+        },
+        {
+          "id": "d3-i3",
+          "label": "DL Teaching",
+          "criteria": {
+            "nascent": "Explicitly no digital literacy teaching.",
+            "emerging": "DL teaching reported but limited to some teachers or external support.",
+            "ready": "Regular school-led DL teaching with a designated teacher."
+          },
+          "evidence_guidance": "Lab availability or teacher qualification alone does not establish DL teaching."
+        }
+      ]
+    },
+    {
+      "id": "d4",
+      "name": "School system Readiness",
+      "indicators": [
+        {
+          "id": "d4-i1",
+          "label": "Teacher to student Ratio",
+          "criteria": {
+            "nascent": "Staffing below the agreed teacher-to-student benchmark.",
+            "emerging": "Staffing near the benchmark, with class coverage gaps.",
+            "ready": "Staffing meets the agreed benchmark and class coverage needs."
+          },
+          "evidence_guidance": "No ratio benchmark is supplied. Ratios are shown, but readiness is Not assessable pending an agreed benchmark."
+        },
+        {
+          "id": "d4-i2",
+          "label": "Teachers available for all classes",
+          "criteria": {
+            "nascent": "Teachers unavailable for all classes.",
+            "emerging": "Partial class coverage or shared teachers across grades.",
+            "ready": "Teachers available for all classes."
+          },
+          "evidence_guidance": "Bare counts or comments about class grouping do not establish teacher coverage."
+        },
+        {
+          "id": "d4-i3",
+          "label": "Individual Classes Held (not grouped classes)",
+          "criteria": {
+            "nascent": "Most or all classes grouped across grades.",
+            "emerging": "Some grades grouped and others taught separately.",
+            "ready": "Separate grade-level classes held."
+          },
+          "evidence_guidance": "No is interpreted against the source question asking whether classes are grade-specific."
+        },
+        {
+          "id": "d4-i4",
+          "label": "Special Educators availability",
+          "criteria": {
+            "nascent": "No special educators available.",
+            "emerging": "Special educators present, but adequate grade coverage is not established.",
+            "ready": "Special educators present with reported teacher coverage for every class."
+          },
+          "evidence_guidance": "Headcount alone supports Emerging. Coverage does not establish specialisation in every subject."
+        },
+        {
+          "id": "d4-i5",
+          "label": "School admin invests in quality of education, encourages higher education and not just shelter",
+          "criteria": {
+            "nascent": "Administration prioritises shelter or is not focused on education.",
+            "emerging": "Mixed or average educational focus.",
+            "ready": "Administration focuses on quality of education and encourages students towards higher education."
+          },
+          "evidence_guidance": "Generic Yes answers the source question about higher education."
+        },
+        {
+          "id": "d4-i6",
+          "label": "Braille Teaching Support, students write their own tests/exams, not just oral",
+          "criteria": {
+            "nascent": "Predominantly oral teaching or minimal Braille writing support.",
+            "emerging": "Limited Braille expertise in somne grades with oral/scribe dependence for exams.",
+            "ready": "Braille teaching to enable independent written work/exams supported across grades."
+          },
+          "evidence_guidance": "Plain Yes is Emerging because independent exams are not separately confirmed."
+        },
+        {
+          "id": "d4-i7",
+          "label": "ECCE Taught in school",
+          "criteria": {
+            "nascent": "No early foundational teaching and no ECCE support interest reported.",
+            "emerging": "Early foundational teaching or ECCE interest reported, but a full programme is unconfirmed.",
+            "ready": "ECCE programme explicitly implemented."
+          },
+          "evidence_guidance": "T and AB are proxies. Negative answers to both do not verify absence of a named ECCE programme."
+        },
+        {
+          "id": "d4-i8",
+          "label": "VICT support from school",
+          "criteria": {
+            "nascent": "No willingness to support VICT reported.",
+            "emerging": "School interested in supporting VICT.",
+            "ready": "Active VICT support implemented."
+          },
+          "evidence_guidance": "AC measures interest, so Yes supports Emerging rather than Ready."
+        },
+        {
+          "id": "d4-i9",
+          "label": "School teaches Self Organizing Skills (SOS) in all grades",
+          "criteria": {
+            "nascent": "SOS not taught across grades.",
+            "emerging": "SOS taught in some grades or inconsistently.",
+            "ready": "SOS taught in all grades."
+          },
+          "evidence_guidance": "Use the all-grades scope of the source question."
+        },
+        {
+          "id": "d4-i10",
+          "label": "Good internet connectivity",
+          "criteria": {
+            "nascent": "Internet absent, unavailable or poor.",
+            "emerging": "Internet available but reliability average or unconfirmed.",
+            "ready": "Good internet connectivity reported."
+          },
+          "evidence_guidance": "Plain Yes means Emerging until reliability is confirmed."
+        },
+        {
+          "id": "d4-i11",
+          "label": "Students participate in extra curricular activities",
+          "criteria": {
+            "nascent": "No extracurricular participation reported.",
+            "emerging": "Participation exists but access is limited or inconsistent.",
+            "ready": "Students participate in extracurricular activities."
+          },
+          "evidence_guidance": "The source measures participation, not universal student coverage."
+        },
+        {
+          "id": "d4-i12",
+          "label": "Students participate in district/ state/ national level competitions",
+          "criteria": {
+            "nascent": "No district/state/national competition participation.",
+            "emerging": "Competition or event participation reported but external level unclear.",
+            "ready": "District, state or national participation explicitly reported."
+          },
+          "evidence_guidance": "Disability Day events are not automatically treated as competitions."
+        },
+        {
+          "id": "d4-i13",
+          "label": "After School Support",
+          "criteria": {
+            "nascent": "No after-school learning support.",
+            "emerging": "Some after-school support reported, but regularity unclear.",
+            "ready": "Regular structured after-school learning support."
+          },
+          "evidence_guidance": "A generic Yes or hostel teaching supports Emerging until regularity is confirmed."
+        }
+      ]
+    },
+    {
+      "id": "d5",
+      "name": "Science Readiness",
+      "indicators": [
+        {
+          "id": "d5-i1",
+          "label": "Qualified Science Teachers available",
+          "criteria": {
+            "nascent": "No qualified Science/Maths teachers available.",
+            "emerging": "Combined Science/Maths teacher availability reported, but Science qualification and coverage unclear.",
+            "ready": "Science-qualified teacher coverage explicitly established."
+          },
+          "evidence_guidance": "K combines Science and Maths, so positive counts are Emerging rather than proof of Science-specific qualification."
+        },
+        {
+          "id": "d5-i2",
+          "label": "Tactile Books Availability (RLF, etc)",
+          "criteria": {
+            "nascent": "No tactile books available.",
+            "emerging": "RLF/tactile books present but adequacy across grades unclear.",
+            "ready": "Adequate tactile learning books available across grades."
+          },
+          "evidence_guidance": "A generic book Yes does not identify tactile books."
+        },
+        {
+          "id": "d5-i3",
+          "label": "Functional Science Lab",
+          "criteria": {
+            "nascent": "No functional science lab.",
+            "emerging": "Lab present but regular functioning not established.",
+            "ready": "Functional science lab with regular student lab classes."
+          },
+          "evidence_guidance": "Same source and criteria as Resources row 5."
+        },
+        {
+          "id": "d5-i4",
+          "label": "Grade till which Science and Maths are taught",
+          "criteria": {
+            "nascent": "Science/Maths stop below the highest grade offered.",
+            "emerging": "Subjects taught through the highest grade offered, but grade-specific delivery unconfirmed.",
+            "ready": "Subjects taught through the highest grade offered with grade-specific delivery confirmed."
+          },
+          "evidence_guidance": "W records grade reach, not subject quality. Equal grade reach supports Emerging; Ready also requires separate classes."
+        }
+      ]
+    },
+    {
+      "id": "d6",
+      "name": "Maths readiness",
+      "indicators": [
+        {
+          "id": "d6-i1",
+          "label": "Written Math support",
+          "criteria": {
+            "nascent": "No or very little written Maths support.",
+            "emerging": "Some Taylor Frame/Abacus support, limited use or mixed provision.",
+            "ready": "Written Maths support using appropriate tools and independent written work confirmed."
+          },
+          "evidence_guidance": "Tools or generic Yes alone support Emerging; they do not establish independent mathematical writing."
+        },
+        {
+          "id": "d6-i2",
+          "label": "Grade till which Science and Maths are taught",
+          "criteria": {
+            "nascent": "Science/Maths stop below the highest grade offered.",
+            "emerging": "Subjects taught through the highest grade offered, but grade-specific delivery unconfirmed.",
+            "ready": "Subjects taught through the highest grade offered with grade-specific delivery confirmed."
+          },
+          "evidence_guidance": "Same grade-reach rule as Science row 41."
+        },
+        {
+          "id": "d6-i3",
+          "label": "Nemeth support",
+          "criteria": {
+            "nascent": "No Nemeth teaching/support, explicitly confirmed.",
+            "emerging": "Some Nemeth teaching/support, with limited coverage.",
+            "ready": "Consistent Nemeth teaching and student use."
+          },
+          "evidence_guidance": "No Nemeth-specific field is provided. Do not infer from Braille or Taylor Frame."
+        },
+        {
+          "id": "d6-i4",
+          "label": "Maths on computer in middle school",
+          "criteria": {
+            "nascent": "No computer-based Maths teaching, explicitly confirmed.",
+            "emerging": "Some computer-based Maths teaching, with limited coverage.",
+            "ready": "Regular accessible computer-based Maths teaching."
+          },
+          "evidence_guidance": "Computer/lab availability does not establish Maths-on-computer teaching."
+        }
+      ]
+    }
+  ],
+  "1-10": [
+    {
+      "id": "d1",
+      "name": "Resources",
+      "indicators": [
+        {
+          "id": "d1-i1",
+          "label": "Basic Reading/ Writing materials (Slate, stylus)",
+          "criteria": {
+            "nascent": "Materials absent or very limited.",
+            "emerging": "Materials shared or unavailable for some students.",
+            "ready": "Basic reading and writing materials available for every student."
+          },
+          "evidence_guidance": "L combines slates, stylus and Taylor Frame. Availability does not establish use."
+        },
+        {
+          "id": "d1-i2",
+          "label": "Book Availability (Braille)",
+          "criteria": {
+            "nascent": "Braille textbooks absent, including current-syllabus books.",
+            "emerging": "Some Braille textbooks available but insufficient, shared or outdated.",
+            "ready": "Current Braille textbooks available adequately across grades."
+          },
+          "evidence_guidance": "RLF tactile books are rated separately. A plain Yes is Emerging because adequacy and currency are unspecified."
+        },
+        {
+          "id": "d1-i3",
+          "label": "Audio resources availability",
+          "criteria": {
+            "nascent": "No audio learning resources available.",
+            "emerging": "Audio resources limited to selected grades or content.",
+            "ready": "Audio learning resources available across grades."
+          },
+          "evidence_guidance": "A plain Yes or VE provided is Emerging until coverage is confirmed."
+        },
+        {
+          "id": "d1-i4",
+          "label": "Science Lab present",
+          "criteria": {
+            "nascent": "No science lab.",
+            "emerging": "Lab present but regular functioning not established.",
+            "ready": "Functional science lab with regular student lab classes."
+          },
+          "evidence_guidance": "G explicitly asks about a functional lab and regular classes."
+        },
+        {
+          "id": "d1-i5",
+          "label": "AT Availability",
+          "criteria": {
+            "nascent": "No assistive devices available, explicitly reported.",
+            "emerging": "Some assistive devices available, but coverage is limited or unclear.",
+            "ready": "Relevant assistive devices available adequately across grades."
+          },
+          "evidence_guidance": "Teacher knowledge and computers alone do not establish AT availability."
+        },
+        {
+          "id": "d1-i6",
+          "label": "DL Infrastructure",
+          "criteria": {
+            "nascent": "No digital literacy lab or computers available.",
+            "emerging": "Computers or a lab available, but adequacy and operation unclear.",
+            "ready": "Equipped operational lab with teaching support."
+          },
+          "evidence_guidance": "Computer teacher plus desktops supports Ready. Generic Yes or a device count supports Emerging."
+        }
+      ]
+    },
+    {
+      "id": "d2",
+      "name": "Teacher Capacity",
+      "indicators": [
+        {
+          "id": "d2-i1",
+          "label": "Teachers qualified to work with Braille (not just oral teaching)",
+          "criteria": {
+            "nascent": "Teachers lack Braille competence.",
+            "emerging": "Only some teachers know Braille, or competence covers limited teaching needs.",
+            "ready": "Relevant teachers can teach using Braille."
+          },
+          "evidence_guidance": "Unverified claims and Not sure are Not assessable. A plain Yes answers the source qualification question."
+        },
+        {
+          "id": "d2-i2",
+          "label": "VI teachers digitially literate to access information for teaching (Subodha)",
+          "criteria": {
+            "nascent": "VI teachers lack digital literacy or require basic support.",
+            "emerging": "Some VI teachers digitally literate, or limited phone-based use reported.",
+            "ready": "VI teachers can access digital teaching information independently."
+          },
+          "evidence_guidance": "No VI teachers is Not applicable. Plain Yes is Emerging because independent teaching-resource use is not specified."
+        },
+        {
+          "id": "d2-i3",
+          "label": "Teachers trained to use AT / DL etc",
+          "criteria": {
+            "nascent": "Teachers lack AT/DL skills or do not use available tools.",
+            "emerging": "Some teachers skilled, or competence varies across AT/DL tools.",
+            "ready": "Relevant teachers qualified to use AT/DL tools."
+          },
+          "evidence_guidance": "No device is Not assessable for teacher competence. Generic Yes answers the source qualification question."
+        },
+        {
+          "id": "d2-i4",
+          "label": "Teachers providing classwork/ homework / regular assessments",
+          "criteria": {
+            "nascent": "No classwork, homework or regular assessments provided.",
+            "emerging": "Provided inconsistently or only to some students.",
+            "ready": "Teachers routinely provide classwork, homework and assessments."
+          },
+          "evidence_guidance": "Apply the source question as a combined indicator."
+        },
+        {
+          "id": "d2-i5",
+          "label": "Participation in CT classes",
+          "criteria": {
+            "nascent": "No teacher participation in CT classes.",
+            "emerging": "Teachers participate inconsistently.",
+            "ready": "Teachers regularly participate in CT classes."
+          },
+          "evidence_guidance": "Not always is Emerging."
+        },
+        {
+          "id": "d2-i6",
+          "label": "Participation in CTIS, Pragyas etc",
+          "criteria": {
+            "nascent": "No participation in CTIS or Pragya.",
+            "emerging": "Participation in one programme, or unspecified training participation.",
+            "ready": "Participation in both CTIS and Pragya."
+          },
+          "evidence_guidance": "Plain Yes does not establish participation in both programmes."
+        },
+        {
+          "id": "d2-i7",
+          "label": "Number of supportive teachers for VE",
+          "criteria": {
+            "nascent": "No supportive teachers reported.",
+            "emerging": "Some supportive teachers reported, but not the full teaching team.",
+            "ready": "All teaching staff support VE."
+          },
+          "evidence_guidance": "Counts are retained. A date in AK cannot be interpreted as a teacher count."
+        },
+        {
+          "id": "d2-i8",
+          "label": "Number of teachers with VE AI Training certification",
+          "criteria": {
+            "nascent": "None",
+            "emerging": "25-50% trained",
+            "ready": "100% trained"
+          },
+          "evidence_guidance": "Record the source and enough detail for another reviewer to verify the rating."
+        },
+        {
+          "id": "d2-i9",
+          "label": "Number of Master Trainers",
+          "criteria": {
+            "nascent": "None",
+            "emerging": "Max 1",
+            "ready": "At least 2"
+          },
+          "evidence_guidance": "Record the source and enough detail for another reviewer to verify the rating."
+        }
+      ]
+    },
+    {
+      "id": "d3",
+      "name": "AT/ DL Readiness",
+      "indicators": [
+        {
+          "id": "d3-i1",
+          "label": "AT Use",
+          "criteria": {
+            "nascent": "Explicitly no use of Hexis/IRIS or other AT.",
+            "emerging": "Some use reported, with limited or inconsistent coverage.",
+            "ready": "Regular independent AT use in teaching and learning."
+          },
+          "evidence_guidance": "General teacher competence is not evidence of actual AT use."
+        },
+        {
+          "id": "d3-i2",
+          "label": "DL Infrastructure",
+          "criteria": {
+            "nascent": "No digital literacy lab or computers available.",
+            "emerging": "Computers or a lab available, but adequacy and operation unclear.",
+            "ready": "Equipped operational lab with teaching support."
+          },
+          "evidence_guidance": "Uses the same infrastructure criteria as Resources row 7."
+        },
+        {
+          "id": "d3-i3",
+          "label": "DL Teaching",
+          "criteria": {
+            "nascent": "Explicitly no digital literacy teaching.",
+            "emerging": "DL teaching reported but limited to some teachers or external support.",
+            "ready": "Regular school-led DL teaching with a designated teacher. Students enabled to write work/take exams on computer or equally take CBTs with signted students."
+          },
+          "evidence_guidance": "Lab availability or teacher qualification alone does not establish DL teaching."
+        },
+        {
+          "id": "d3-i4",
+          "label": "IT Courses",
+          "criteria": {
+            "nascent": "No IT courses offered",
+            "emerging": "IT courses offered in camps or workshops",
+            "ready": "Regular IT courses offered"
+          },
+          "evidence_guidance": "Record the source and enough detail for another reviewer to verify the rating."
+        }
+      ]
+    },
+    {
+      "id": "d4",
+      "name": "School system Readiness",
+      "indicators": [
+        {
+          "id": "d4-i1",
+          "label": "Teacher to student Ratio",
+          "criteria": {
+            "nascent": "Staffing below the agreed teacher-to-student benchmark.",
+            "emerging": "Staffing near the benchmark, with class coverage gaps.",
+            "ready": "Staffing meets the agreed benchmark and class coverage needs."
+          },
+          "evidence_guidance": "No ratio benchmark is supplied. Ratios are shown, but readiness is Not assessable pending an agreed benchmark."
+        },
+        {
+          "id": "d4-i2",
+          "label": "Teachers available for all classes",
+          "criteria": {
+            "nascent": "Teachers unavailable for all classes.",
+            "emerging": "Partial class coverage or shared teachers across grades.",
+            "ready": "Teachers available for all classes."
+          },
+          "evidence_guidance": "Bare counts or comments about class grouping do not establish teacher coverage."
+        },
+        {
+          "id": "d4-i3",
+          "label": "Individual Classes Held (not grouped classes)",
+          "criteria": {
+            "nascent": "Most or all classes grouped across grades.",
+            "emerging": "Some grades grouped and others taught separately.",
+            "ready": "Separate grade-level classes held."
+          },
+          "evidence_guidance": "No is interpreted against the source question asking whether classes are grade-specific."
+        },
+        {
+          "id": "d4-i4",
+          "label": "Special Educators availability",
+          "criteria": {
+            "nascent": "No special educators available.",
+            "emerging": "Special educators present, but adequate grade coverage is not established.",
+            "ready": "Special educators present with reported teacher coverage for every class."
+          },
+          "evidence_guidance": "Headcount alone supports Emerging. Coverage does not establish specialisation in every subject."
+        },
+        {
+          "id": "d4-i5",
+          "label": "School admin invests in quality of education, encourages higher education and not just shelter",
+          "criteria": {
+            "nascent": "Administration prioritises shelter or is not focused on education.",
+            "emerging": "Mixed or average educational focus.",
+            "ready": "Administration  focuses on quality of education and supports higher education."
+          },
+          "evidence_guidance": "Generic Yes answers the source question about higher education."
+        },
+        {
+          "id": "d4-i6",
+          "label": "Braille Teaching Support, students write their own tests/exams, not just oral",
+          "criteria": {
+            "nascent": "Predominantly oral teaching or minimal Braille writing support.",
+            "emerging": "Limited Braille expertise in some grades with oral/scribe dependence for exams.",
+            "ready": "Braille teaching to enable independent written work/exams supported across grades."
+          },
+          "evidence_guidance": "Plain Yes is Emerging because independent exams are not separately confirmed."
+        },
+        {
+          "id": "d4-i7",
+          "label": "ECCE Taught in school",
+          "criteria": {
+            "nascent": "No early foundational teaching and no ECCE support interest reported.",
+            "emerging": "Early foundational teaching or ECCE interest reported, but a full programme is unconfirmed.",
+            "ready": "ECCE programme explicitly implemented."
+          },
+          "evidence_guidance": "T and AB are proxies. Negative answers to both do not verify absence of a named ECCE programme."
+        },
+        {
+          "id": "d4-i8",
+          "label": "VICT support from school",
+          "criteria": {
+            "nascent": "No willingness to support VICT reported.",
+            "emerging": "School interested in supporting VICT.",
+            "ready": "Active VICT support implemented."
+          },
+          "evidence_guidance": "AC measures interest, so Yes supports Emerging rather than Ready."
+        },
+        {
+          "id": "d4-i9",
+          "label": "School teaches Self Organizing Skills (SOS) in all grades",
+          "criteria": {
+            "nascent": "SOS not taught across grades.",
+            "emerging": "SOS taught in some grades or inconsistently.",
+            "ready": "SOS taught in all grades."
+          },
+          "evidence_guidance": "Use the all-grades scope of the source question."
+        },
+        {
+          "id": "d4-i10",
+          "label": "Good internet connectivity",
+          "criteria": {
+            "nascent": "Internet absent, unavailable or poor.",
+            "emerging": "Internet available but reliability average or unconfirmed.",
+            "ready": "Good internet connectivity reported."
+          },
+          "evidence_guidance": "Plain Yes means Emerging until reliability is confirmed."
+        },
+        {
+          "id": "d4-i11",
+          "label": "Students participate in extra curricular activities",
+          "criteria": {
+            "nascent": "No extracurricular participation reported.",
+            "emerging": "Participation exists but access is limited or inconsistent.",
+            "ready": "Students participate in extracurricular activities."
+          },
+          "evidence_guidance": "The source measures participation, not universal student coverage."
+        },
+        {
+          "id": "d4-i12",
+          "label": "Students participate in district/ state/ national level competitions",
+          "criteria": {
+            "nascent": "No district/state/national competition participation.",
+            "emerging": "Competition or event participation reported but external level unclear.",
+            "ready": "District, state or national participation explicitly reported."
+          },
+          "evidence_guidance": "Disability Day events are not automatically treated as competitions."
+        },
+        {
+          "id": "d4-i13",
+          "label": "After School Support",
+          "criteria": {
+            "nascent": "No after-school learning support.",
+            "emerging": "Some after-school support reported, but regularity unclear.",
+            "ready": "Regular structured after-school learning support."
+          },
+          "evidence_guidance": "A generic Yes or hostel teaching supports Emerging until regularity is confirmed."
+        },
+        {
+          "id": "d4-i14",
+          "label": "Employment Readiness Programs",
+          "criteria": {
+            "nascent": "Not offered/Rarely offered",
+            "emerging": "Offered adhoc",
+            "ready": "Planned employment readiness training and support provided"
+          },
+          "evidence_guidance": "Record the source and enough detail for another reviewer to verify the rating."
+        }
+      ]
+    },
+    {
+      "id": "d5",
+      "name": "Science Readiness",
+      "indicators": [
+        {
+          "id": "d5-i1",
+          "label": "Qualified Science Teachers available",
+          "criteria": {
+            "nascent": "No qualified Science/Maths teachers available.",
+            "emerging": "Combined Science/Maths teacher availability reported, but Science qualification and coverage unclear.",
+            "ready": "Science-qualified teacher coverage explicitly established."
+          },
+          "evidence_guidance": "K combines Science and Maths, so positive counts are Emerging rather than proof of Science-specific qualification."
+        },
+        {
+          "id": "d5-i2",
+          "label": "Tactile Books Availability (RLF, etc)",
+          "criteria": {
+            "nascent": "No tactile books available.",
+            "emerging": "RLF/tactile books present but adequacy across grades unclear.",
+            "ready": "Adequate tactile learning books available across grades."
+          },
+          "evidence_guidance": "A generic book Yes does not identify tactile books."
+        },
+        {
+          "id": "d5-i3",
+          "label": "Functional Science Lab",
+          "criteria": {
+            "nascent": "No functional science lab.",
+            "emerging": "Lab present but regular functioning not established.",
+            "ready": "Functional science lab with regular student lab classes."
+          },
+          "evidence_guidance": "Same source and criteria as Resources row 5."
+        },
+        {
+          "id": "d5-i4",
+          "label": "Grade till which Science and Maths are taught",
+          "criteria": {
+            "nascent": "Science/Maths stop below the highest grade offered.",
+            "emerging": "Subjects taught through the highest grade offered, but grade-specific delivery unconfirmed.",
+            "ready": "Subjects taught through the highest grade offered with grade-specific delivery confirmed."
+          },
+          "evidence_guidance": "W records grade reach, not subject quality. Equal grade reach supports Emerging; Ready also requires separate classes."
+        }
+      ]
+    },
+    {
+      "id": "d6",
+      "name": "Maths readiness",
+      "indicators": [
+        {
+          "id": "d6-i1",
+          "label": "Written Math support",
+          "criteria": {
+            "nascent": "No or very little written Maths support.",
+            "emerging": "Some Taylor Frame/Abacus support, limited use or mixed provision.",
+            "ready": "Written Maths support using appropriate tools and independent written work confirmed."
+          },
+          "evidence_guidance": "Tools or generic Yes alone support Emerging; they do not establish independent mathematical writing."
+        },
+        {
+          "id": "d6-i2",
+          "label": "Grade till which Science and Maths are taught",
+          "criteria": {
+            "nascent": "Science/Maths stop below the highest grade offered.",
+            "emerging": "Subjects taught through the highest grade offered, but grade-specific delivery unconfirmed.",
+            "ready": "Subjects taught through the highest grade offered with grade-specific delivery confirmed."
+          },
+          "evidence_guidance": "Same grade-reach rule as Science row 41."
+        },
+        {
+          "id": "d6-i3",
+          "label": "Nemeth support",
+          "criteria": {
+            "nascent": "No Nemeth teaching/support, explicitly confirmed.",
+            "emerging": "Some Nemeth teaching/support, with limited coverage.",
+            "ready": "Consistent Nemeth teaching and student use."
+          },
+          "evidence_guidance": "No Nemeth-specific field is provided. Do not infer from Braille or Taylor Frame."
+        },
+        {
+          "id": "d6-i4",
+          "label": "Maths on computer in middle and high school",
+          "criteria": {
+            "nascent": "No computer-based Maths teaching, explicitly confirmed.",
+            "emerging": "Some computer-based Maths teaching, with limited coverage.",
+            "ready": "Regular accessible computer-based Maths teaching."
+          },
+          "evidence_guidance": "Computer/lab availability does not establish Maths-on-computer teaching."
+        }
+      ]
+    }
+  ]
+}

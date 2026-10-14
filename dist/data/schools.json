@@ -1,0 +1,450 @@
+[
+  {
+    "id": "OD-001",
+    "name": "Red Cross school for the blind,Ganjam",
+    "grades": "1 to 10",
+    "district": "Ganjam",
+    "domains": {
+      "Resources": "Emerging",
+      "Teacher Capacity": "Ready",
+      "AT / DL Readiness": "Emerging",
+      "School System Readiness": "Emerging",
+      "Science Readiness": "Ready",
+      "Maths Readiness": "Emerging"
+    },
+    "score": "22",
+    "engagement": "Operational Autonomy"
+  },
+  {
+    "id": "OD-002",
+    "name": "School For the blind, cuttack",
+    "grades": "1 to 10",
+    "district": "Cuttack",
+    "domains": {
+      "Resources": "Ready",
+      "Teacher Capacity": "Emerging",
+      "AT / DL Readiness": "Emerging",
+      "School System Readiness": "Emerging",
+      "Science Readiness": "Emerging",
+      "Maths Readiness": "Emerging"
+    },
+    "score": "20",
+    "engagement": "Operational Autonomy"
+  },
+  {
+    "id": "OD-003",
+    "name": "The Welfare School for the Blind,Ranipatna, Baleshwar",
+    "grades": "1 to 10",
+    "district": "Baleshwar",
+    "domains": {
+      "Resources": "Emerging",
+      "Teacher Capacity": "Emerging",
+      "AT / DL Readiness": "Emerging",
+      "School System Readiness": "Emerging",
+      "Science Readiness": "Ready",
+      "Maths Readiness": "Emerging"
+    },
+    "score": "20",
+    "engagement": "Operational Autonomy"
+  },
+  {
+    "id": "OD-004",
+    "name": "School for the blind, Banpur",
+    "grades": "1 to 8",
+    "district": "Banpur",
+    "domains": {
+      "Resources": "Emerging",
+      "Teacher Capacity": "Ready",
+      "AT / DL Readiness": "Emerging",
+      "School System Readiness": "Emerging",
+      "Science Readiness": "Emerging",
+      "Maths Readiness": "Emerging"
+    },
+    "score": "20",
+    "engagement": "Operational Autonomy"
+  },
+  {
+    "id": "OD-005",
+    "name": "School for the blind, Keonjhar",
+    "grades": "1 to 10",
+    "district": "Keonjhar",
+    "domains": {
+      "Resources": "Ready",
+      "Teacher Capacity": "Emerging",
+      "AT / DL Readiness": "Emerging",
+      "School System Readiness": "Emerging",
+      "Science Readiness": "Emerging",
+      "Maths Readiness": "Emerging"
+    },
+    "score": "20",
+    "engagement": "Operational Autonomy"
+  },
+  {
+    "id": "OD-006",
+    "name": "School for the blind,Koraput",
+    "grades": "1 to 10",
+    "district": "Koraput",
+    "domains": {
+      "Resources": "Emerging",
+      "Teacher Capacity": "Emerging",
+      "AT / DL Readiness": "Emerging",
+      "School System Readiness": "Emerging",
+      "Science Readiness": "Emerging",
+      "Maths Readiness": "Ready"
+    },
+    "score": "20",
+    "engagement": "Operational Autonomy"
+  },
+  {
+    "id": "OD-007",
+    "name": "School for the Blind, Angul",
+    "grades": "1 to 5",
+    "district": "Angul",
+    "domains": {
+      "Resources": "Ready",
+      "Teacher Capacity": "Emerging",
+      "AT / DL Readiness": "Emerging",
+      "School System Readiness": "Emerging",
+      "Science Readiness": "Emerging",
+      "Maths Readiness": "Emerging"
+    },
+    "score": "20",
+    "engagement": "Operational Autonomy"
+  },
+  {
+    "id": "OD-008",
+    "name": "Louis braille school for the blind, bbsr",
+    "grades": "1 to 10",
+    "district": "Bbsr",
+    "domains": {
+      "Resources": "Ready",
+      "Teacher Capacity": "Emerging",
+      "AT / DL Readiness": "Emerging",
+      "School System Readiness": "Emerging",
+      "Science Readiness": "Emerging",
+      "Maths Readiness": "Emerging"
+    },
+    "score": "20",
+    "engagement": "Operational Autonomy"
+  },
+  {
+    "id": "OD-009",
+    "name": "H.W.I School for the Blind,Ranipatna, Baleshwar",
+    "grades": "1 to 8",
+    "district": "Baleshwar",
+    "domains": {
+      "Resources": "Ready",
+      "Teacher Capacity": "Emerging",
+      "AT / DL Readiness": "Emerging",
+      "School System Readiness": "Emerging",
+      "Science Readiness": "Emerging",
+      "Maths Readiness": "Emerging"
+    },
+    "score": "20",
+    "engagement": "Operational Autonomy"
+  },
+  {
+    "id": "OD-010",
+    "name": "John Milton school for the blind,Nayagarh",
+    "grades": "1 to 5",
+    "district": "Nayagarh",
+    "domains": {
+      "Resources": "Ready",
+      "Teacher Capacity": "Emerging",
+      "AT / DL Readiness": "Emerging",
+      "School System Readiness": "Emerging",
+      "Science Readiness": "Emerging",
+      "Maths Readiness": "Emerging"
+    },
+    "score": "20",
+    "engagement": "Operational Autonomy"
+  },
+  {
+    "id": "OD-011",
+    "name": "Muncipality school for the blind, kendrapada",
+    "grades": "1 to 5",
+    "district": "Kendrapada",
+    "domains": {
+      "Resources": "Ready",
+      "Teacher Capacity": "Emerging",
+      "AT / DL Readiness": "Emerging",
+      "School System Readiness": "Emerging",
+      "Science Readiness": "Emerging",
+      "Maths Readiness": "Emerging"
+    },
+    "score": "20",
+    "engagement": "Operational Autonomy"
+  },
+  {
+    "id": "OD-012",
+    "name": "School for the blind palur,Ganjam",
+    "grades": "1 to 5",
+    "district": "Ganjam",
+    "domains": {
+      "Resources": "Ready",
+      "Teacher Capacity": "Emerging",
+      "AT / DL Readiness": "Emerging",
+      "School System Readiness": "Emerging",
+      "Science Readiness": "Emerging",
+      "Maths Readiness": "Emerging"
+    },
+    "score": "20",
+    "engagement": "Operational Autonomy"
+  },
+  {
+    "id": "OD-013",
+    "name": "Service centre for the disabled, Titlagarh",
+    "grades": "1 to 5",
+    "district": "Titlagarh",
+    "domains": {
+      "Resources": "Ready",
+      "Teacher Capacity": "Emerging",
+      "AT / DL Readiness": "Emerging",
+      "School System Readiness": "Emerging",
+      "Science Readiness": "Emerging",
+      "Maths Readiness": "Emerging"
+    },
+    "score": "20",
+    "engagement": "Operational Autonomy"
+  },
+  {
+    "id": "OD-014",
+    "name": "School For The Blind, Bapujee Special School, Bargarh",
+    "grades": "1 to 8",
+    "district": "Bargarh",
+    "domains": {
+      "Resources": "Emerging",
+      "Teacher Capacity": "Emerging",
+      "AT / DL Readiness": "Emerging",
+      "School System Readiness": "Emerging",
+      "Science Readiness": "Emerging",
+      "Maths Readiness": "Emerging"
+    },
+    "score": "18",
+    "engagement": "Assisted Competency"
+  },
+  {
+    "id": "OD-015",
+    "name": "FFEBD Special School for the Blind, Malkangiri",
+    "grades": "1 to 8",
+    "district": "Malkangiri",
+    "domains": {
+      "Resources": "Emerging",
+      "Teacher Capacity": "Emerging",
+      "AT / DL Readiness": "Emerging",
+      "School System Readiness": "Emerging",
+      "Science Readiness": "Emerging",
+      "Maths Readiness": "Emerging"
+    },
+    "score": "18",
+    "engagement": "Assisted Competency"
+  },
+  {
+    "id": "OD-016",
+    "name": "Netaji handicapped school, Jajpur",
+    "grades": "1 to 8",
+    "district": "Jajpur",
+    "domains": {
+      "Resources": "Emerging",
+      "Teacher Capacity": "Emerging",
+      "AT / DL Readiness": "Emerging",
+      "School System Readiness": "Emerging",
+      "Science Readiness": "Emerging",
+      "Maths Readiness": "Emerging"
+    },
+    "score": "18",
+    "engagement": "Assisted Competency"
+  },
+  {
+    "id": "OD-017",
+    "name": "Red Cross school for the blind, Baliguda, Kandhamal",
+    "grades": "1 to 10",
+    "district": "Kandhamal",
+    "domains": {
+      "Resources": "Emerging",
+      "Teacher Capacity": "Emerging",
+      "AT / DL Readiness": "Emerging",
+      "School System Readiness": "Emerging",
+      "Science Readiness": "Emerging",
+      "Maths Readiness": "Emerging"
+    },
+    "score": "18",
+    "engagement": "Assisted Competency"
+  },
+  {
+    "id": "OD-018",
+    "name": "Red Cross school for the blind, Bhawanipatna, Kalahandi",
+    "grades": "1 to 10",
+    "district": "Kalahandi",
+    "domains": {
+      "Resources": "Emerging",
+      "Teacher Capacity": "Emerging",
+      "AT / DL Readiness": "Emerging",
+      "School System Readiness": "Emerging",
+      "Science Readiness": "Emerging",
+      "Maths Readiness": "Emerging"
+    },
+    "score": "18",
+    "engagement": "Assisted Competency"
+  },
+  {
+    "id": "OD-019",
+    "name": "RSD school for the Disability vi Saintala",
+    "grades": "1 to 8",
+    "district": "Rsd School For The Disability Vi Saintala",
+    "domains": {
+      "Resources": "Emerging",
+      "Teacher Capacity": "Emerging",
+      "AT / DL Readiness": "Emerging",
+      "School System Readiness": "Emerging",
+      "Science Readiness": "Emerging",
+      "Maths Readiness": "Emerging"
+    },
+    "score": "18",
+    "engagement": "Assisted Competency"
+  },
+  {
+    "id": "OD-020",
+    "name": "School For the blind, Dhenkanal",
+    "grades": "1 to 8",
+    "district": "Dhenkanal",
+    "domains": {
+      "Resources": "Emerging",
+      "Teacher Capacity": "Emerging",
+      "AT / DL Readiness": "Emerging",
+      "School System Readiness": "Emerging",
+      "Science Readiness": "Emerging",
+      "Maths Readiness": "Emerging"
+    },
+    "score": "18",
+    "engagement": "Assisted Competency"
+  },
+  {
+    "id": "OD-021",
+    "name": "School for the blind, IIC, Bhadrak",
+    "grades": "1 to 10",
+    "district": "Bhadrak",
+    "domains": {
+      "Resources": "Emerging",
+      "Teacher Capacity": "Emerging",
+      "AT / DL Readiness": "Emerging",
+      "School System Readiness": "Emerging",
+      "Science Readiness": "Emerging",
+      "Maths Readiness": "Emerging"
+    },
+    "score": "18",
+    "engagement": "Assisted Competency"
+  },
+  {
+    "id": "OD-022",
+    "name": "School for the blind, sundergarh",
+    "grades": "1 to 10",
+    "district": "Sundergarh",
+    "domains": {
+      "Resources": "Emerging",
+      "Teacher Capacity": "Emerging",
+      "AT / DL Readiness": "Emerging",
+      "School System Readiness": "Emerging",
+      "Science Readiness": "Emerging",
+      "Maths Readiness": "Emerging"
+    },
+    "score": "18",
+    "engagement": "Assisted Competency"
+  },
+  {
+    "id": "OD-023",
+    "name": "School for vi JBBBSN , salepali",
+    "grades": "1 to 7",
+    "district": "Salepali",
+    "domains": {
+      "Resources": "Emerging",
+      "Teacher Capacity": "Emerging",
+      "AT / DL Readiness": "Emerging",
+      "School System Readiness": "Emerging",
+      "Science Readiness": "Emerging",
+      "Maths Readiness": "Emerging"
+    },
+    "score": "18",
+    "engagement": "Assisted Competency"
+  },
+  {
+    "id": "OD-024",
+    "name": "Special School for the Blind, Laxmiposi ,Baripada, Mayurbhanj",
+    "grades": "1 to 10",
+    "district": "Mayurbhanj",
+    "domains": {
+      "Resources": "Emerging",
+      "Teacher Capacity": "Emerging",
+      "AT / DL Readiness": "Emerging",
+      "School System Readiness": "Emerging",
+      "Science Readiness": "Emerging",
+      "Maths Readiness": "Emerging"
+    },
+    "score": "18",
+    "engagement": "Assisted Competency"
+  },
+  {
+    "id": "OD-025",
+    "name": "SVM School for the blind, Nimapada, Puri",
+    "grades": "1 to 10",
+    "district": "Puri",
+    "domains": {
+      "Resources": "Emerging",
+      "Teacher Capacity": "Emerging",
+      "AT / DL Readiness": "Emerging",
+      "School System Readiness": "Emerging",
+      "Science Readiness": "Emerging",
+      "Maths Readiness": "Emerging"
+    },
+    "score": "18",
+    "engagement": "Assisted Competency"
+  },
+  {
+    "id": "OD-026",
+    "name": "Arati Devi school for blind, Kendrapara",
+    "grades": "1 to 5",
+    "district": "Kendrapara",
+    "domains": {
+      "Resources": "Ready",
+      "Teacher Capacity": "Nascent",
+      "AT / DL Readiness": "Emerging",
+      "School System Readiness": "Nascent",
+      "Science Readiness": "Emerging",
+      "Maths Readiness": "Nascent"
+    },
+    "score": "14",
+    "engagement": "High dependency"
+  },
+  {
+    "id": "OD-027",
+    "name": "Bichitrananda school for the blind, Puri",
+    "grades": "1 to 8",
+    "district": "Puri",
+    "domains": {
+      "Resources": "Emerging",
+      "Teacher Capacity": "Nascent",
+      "AT / DL Readiness": "Nascent",
+      "School System Readiness": "Nascent",
+      "Science Readiness": "Emerging",
+      "Maths Readiness": "Nascent"
+    },
+    "score": "10",
+    "engagement": "High dependency"
+  },
+  {
+    "id": "OD-028",
+    "name": "Odisha Association School for the blind,BBSR",
+    "grades": "1 to 8",
+    "district": "Bbsr",
+    "domains": {
+      "Resources": "Emerging",
+      "Teacher Capacity": "Nascent",
+      "AT / DL Readiness": "Nascent",
+      "School System Readiness": "Nascent",
+      "Science Readiness": "Nascent",
+      "Maths Readiness": "Emerging"
+    },
+    "score": "10",
+    "engagement": "High dependency"
+  }
+]

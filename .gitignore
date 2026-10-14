@@ -1,0 +1,13 @@
+# Local environment files may contain Supabase credentials.
+.env
+.env.local
+.env.*.local
+dist/config.local.js
+source_extracts/
+extract_sources.py
+inspect_sources.py
+build_data.py
+Concept Note - VE Strategy for Schools.docx
+Odisha_School_Readiness_SBIF (1).xlsx
+atul-gawande-the-checklist-manifesto.pdf
+
