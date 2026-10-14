@@ -10,4 +10,7 @@ build_data.py
 Concept Note - VE Strategy for Schools.docx
 Odisha_School_Readiness_SBIF (1).xlsx
 atul-gawande-the-checklist-manifesto.pdf
+.site-deploy/
+.site-checkout/
+*.tar.gz
 
