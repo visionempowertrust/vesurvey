@@ -15,6 +15,7 @@ const state = {
   draft: null,
   step: 0,
   selectedSchool: seedSchools[0]?.id,
+  session: JSON.parse(localStorage.getItem("ve-supabase-session") || "null"),
 };
 
 const $ = (selector, root = document) => root.querySelector(selector);
@@ -28,6 +29,61 @@ function notify(message) {
   toast.classList.add("show");
   clearTimeout(notify.timer);
   notify.timer = setTimeout(() => toast.classList.remove("show"), 2600);
+}
+
+function acceptAuthCallback() {
+  const params = new URLSearchParams(location.hash.replace(/^#/, ""));
+  const accessToken = params.get("access_token");
+  if (!accessToken) return;
+  state.session = {
+    access_token: accessToken,
+    refresh_token: params.get("refresh_token"),
+    expires_at: Math.floor(Date.now() / 1000) + Number(params.get("expires_in") || 3600),
+  };
+  localStorage.setItem("ve-supabase-session", JSON.stringify(state.session));
+  history.replaceState(null, "", location.pathname + location.search);
+  notify("Signed in. Supabase sync is active.");
+}
+
+async function accessToken() {
+  if (!state.session?.access_token) return null;
+  if (!state.session.expires_at || state.session.expires_at > Math.floor(Date.now() / 1000) + 60) return state.session.access_token;
+  if (!state.session.refresh_token) return null;
+  const response = await fetch(`${CONFIG.supabaseUrl}/auth/v1/token?grant_type=refresh_token`, {
+    method: "POST",
+    headers: { apikey: CONFIG.supabaseAnonKey, "Content-Type": "application/json" },
+    body: JSON.stringify({ refresh_token: state.session.refresh_token }),
+  });
+  if (!response.ok) { signOut(); return null; }
+  const refreshed = await response.json();
+  state.session = { access_token: refreshed.access_token, refresh_token: refreshed.refresh_token, expires_at: Math.floor(Date.now()/1000) + refreshed.expires_in };
+  localStorage.setItem("ve-supabase-session", JSON.stringify(state.session));
+  return state.session.access_token;
+}
+
+async function sendMagicLink(email) {
+  const redirectTo = location.origin + location.pathname;
+  const response = await fetch(`${CONFIG.supabaseUrl}/auth/v1/otp?redirect_to=${encodeURIComponent(redirectTo)}`, {
+    method: "POST",
+    headers: { apikey: CONFIG.supabaseAnonKey, "Content-Type": "application/json" },
+    body: JSON.stringify({ email, create_user: true }),
+  });
+  if (!response.ok) throw new Error(await response.text());
+}
+
+function signOut() {
+  state.session = null;
+  localStorage.removeItem("ve-supabase-session");
+  updateSyncStatus();
+}
+
+function updateSyncStatus() {
+  const configured = Boolean(CONFIG.supabaseAnonKey);
+  const signedIn = Boolean(state.session?.access_token);
+  $("#sync-dot").classList.toggle("online", signedIn);
+  $("#sync-label").textContent = signedIn ? "Supabase connected" : configured ? "Supabase ready" : "Local workspace";
+  $("#sync-detail").textContent = signedIn ? "Assessments sync securely" : configured ? "Sign in to enable sync" : "Supabase key not configured";
+  $("#auth-button").textContent = signedIn ? "Sign out" : "Sign in to sync";
 }
 
 function setView(view) {
@@ -220,16 +276,18 @@ async function saveDraft(final = false) {
   const ix = state.assessments.findIndex(a=>a.id===state.draft.id);
   if(ix>=0) state.assessments[ix]=structuredClone(state.draft); else state.assessments.unshift(structuredClone(state.draft));
   localStorage.setItem("ve-assessments",JSON.stringify(state.assessments));
-  if(CONFIG.supabaseAnonKey) {
+  if(CONFIG.supabaseAnonKey && state.session?.access_token) {
     try { await supabaseUpsert(state.draft); notify(final?"Assessment confirmed and synced":"Draft saved and synced"); }
     catch(err){ console.error(err); notify("Saved locally; Supabase sync needs attention"); }
-  } else notify(final?"Assessment confirmed on this device":"Draft saved on this device");
+  } else notify(final?"Assessment confirmed locally; sign in to sync":"Draft saved locally; sign in to sync");
   renderDashboard();
   if(final){ state.selectedSchool=state.draft.schoolId||state.schools[0].id; setView("analysis"); }
 }
 
 async function supabaseUpsert(draft) {
-  const response = await fetch(`${CONFIG.supabaseUrl}/rest/v1/assessments?on_conflict=id`,{method:"POST",headers:{apikey:CONFIG.supabaseAnonKey,Authorization:`Bearer ${CONFIG.supabaseAnonKey}`,"Content-Type":"application/json",Prefer:"resolution=merge-duplicates"},body:JSON.stringify({id:draft.id,school_id:draft.schoolId||null,school_name:draft.schoolName,district:draft.district,grade_band:draft.band,assessor_name:draft.assessor,assessment_date:draft.date,current_engagement:draft.currentEngagement,status:draft.status,responses:draft.responses,results:draft.result,notes:draft.notes})});
+  const token = await accessToken();
+  if (!token) throw new Error("Sign-in session is missing or expired");
+  const response = await fetch(`${CONFIG.supabaseUrl}/rest/v1/assessments?on_conflict=id`,{method:"POST",headers:{apikey:CONFIG.supabaseAnonKey,Authorization:`Bearer ${token}`,"Content-Type":"application/json",Prefer:"resolution=merge-duplicates"},body:JSON.stringify({id:draft.id,school_id:draft.schoolId||null,school_name:draft.schoolName,district:draft.district,grade_band:draft.band,assessor_name:draft.assessor,assessment_date:draft.date,current_engagement:draft.currentEngagement,status:draft.status,responses:draft.responses,results:draft.result,notes:draft.notes})});
   if(!response.ok) throw new Error(await response.text());
 }
 
@@ -269,7 +327,26 @@ document.addEventListener("click", e => {
   if(e.target.closest("[data-prev]")){captureForm();state.step=Math.max(0,state.step-1);renderAssessment();}
   if(e.target.closest("[data-save-draft]")) saveDraft(false);
   if(e.target.closest("[data-submit-assessment]")) saveDraft(true);
+  if(e.target.closest("#auth-close")) $("#auth-modal").hidden = true;
+  if(e.target.closest("#auth-button")) {
+    if(state.session?.access_token){ signOut(); notify("Signed out; local saving remains available"); }
+    else $("#auth-modal").hidden = false;
+  }
 });
 
-if(CONFIG.supabaseAnonKey){$("#sync-dot").classList.add("online");$("#sync-label").textContent="Supabase connected";$("#sync-detail").textContent="Project yhaloppwmvdyzssknkpc";}
+$("#auth-form").addEventListener("submit", async e => {
+  e.preventDefault();
+  const button = $("button[type='submit']", e.currentTarget);
+  button.disabled = true;
+  try {
+    await sendMagicLink($("#auth-email").value.trim());
+    $("#auth-modal").hidden = true;
+    notify("Check your email for the secure sign-in link");
+  } catch (error) {
+    console.error(error);
+    notify("Could not send the sign-in link");
+  } finally { button.disabled = false; }
+});
+acceptAuthCallback();
+updateSyncStatus();
 renderDashboard();renderSchools();renderAnalysis();

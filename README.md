@@ -15,9 +15,9 @@ A responsive portal for collecting school readiness evidence, applying the Odish
 ## Supabase setup
 
 1. Run `supabase/schema.sql` in the Supabase SQL editor.
-2. Copy `dist/config.example.js` to `dist/config.js` if needed.
-3. Add the project's public anon or publishable key to `supabaseAnonKey` in `dist/config.js`.
-4. Do not put a service-role key in browser code or commit it to Git.
+2. The project's browser-safe publishable key is configured in `dist/config.js`.
+3. In Supabase Authentication URL Configuration, add the deployed portal URL to the allowed redirect URLs.
+4. Do not put a secret or service-role key in browser code or commit it to Git.
 
-Until the public key and authentication flow are configured, the portal runs in local-workspace mode and stores assessments in the browser.
+The portal supports passwordless email sign-in. When signed out, it remains usable in local-workspace mode and stores assessments in the browser.
 

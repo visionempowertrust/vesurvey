@@ -25,7 +25,7 @@
       </nav>
       <div class="sync-card">
         <span class="status-dot" id="sync-dot"></span>
-        <div><strong id="sync-label">Local workspace</strong><small id="sync-detail">Supabase key not configured</small></div>
+        <div><strong id="sync-label">Local workspace</strong><small id="sync-detail">Supabase key not configured</small><button class="sync-action" id="auth-button">Sign in to sync</button></div>
       </div>
     </aside>
 
@@ -108,6 +108,20 @@
         </section>
       </main>
     </div>
+  </div>
+  <div class="modal-backdrop" id="auth-modal" hidden>
+    <section class="auth-modal" role="dialog" aria-modal="true" aria-labelledby="auth-title">
+      <button class="modal-close" id="auth-close" aria-label="Close">×</button>
+      <p class="eyebrow">Secure database access</p>
+      <h2 id="auth-title">Sign in to sync assessments</h2>
+      <p>Enter your authorised email address. Supabase will send a secure sign-in link.</p>
+      <form id="auth-form">
+        <label for="auth-email">Email address</label>
+        <input id="auth-email" type="email" autocomplete="email" required placeholder="name@example.org">
+        <button class="button primary" type="submit">Send sign-in link</button>
+      </form>
+      <small>Assessment data remains saved locally until sign-in is complete.</small>
+    </section>
   </div>
   <div class="toast" id="toast" role="status" aria-live="polite"></div>
   <script src="config.js"></script>
